@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    >
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/include_top_title_newwhite" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_comments"
+        android:layout_below="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"></android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/bt_tijiao"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="24.0dip"
+        android:background="@drawable/bd_common_btn_green"
+        style="?android:attr/borderlessButtonStyle"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+</RelativeLayout>

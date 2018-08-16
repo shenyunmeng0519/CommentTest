@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginRight="7dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/fiv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="#f6f6f6" />
+    <teacherkline.sikkha.com.textvip.comm.ProcessImageView
+            android:id="@+id/process_image"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+             />
+        <RelativeLayout
+            android:id="@+id/rl_wenzi"
+            android:layout_width="73dp"
+            android:layout_height="73dp">
+            <TextView
+                android:id="@+id/tv_wenzi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片上传中"
+                android:textColor="@color/white"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/ll_del"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@mipmap/delete_pic" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
